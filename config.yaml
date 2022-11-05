@@ -6,9 +6,9 @@
 # └── datasets
 #     └── coco  ← downloads here
 
-train: /content/TK-Datasets/Matriculas/train
-val: /content/TK-Datasets/Matriculas/test
+train: /content/TK-Datasets/CarasYMatriculas/train
+val: /content/TK-Datasets/CarasYMatriculas/test
 
 # Classes
 nc: 1  # number of classes
-names: ['plate']  # class names
+names: ['face','plate']  # class names
