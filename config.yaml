@@ -11,4 +11,4 @@ val: /content/TK-Datasets/Matriculas/test
 
 # Classes
 nc: 1  # number of classes
-names: ['face']  # class names
+names: ['plate']  # class names
