@@ -6,8 +6,8 @@
 # └── datasets
 #     └── coco  ← downloads here
 
-train: /content/TK-Datasets/Caras/train
-val: /content/TK-Datasets/Caras/test
+train: /content/TK-Datasets/Matriculas/train
+val: /content/TK-Datasets/Matriculas/test
 
 # Classes
 nc: 1  # number of classes
