@@ -7,10 +7,16 @@ def renamer(path):
 
     for i, file in enumerate(files):
 
-        new_name = path[:-1]+name+str(i)+".png"
+        new_name = path[:-1]+name+" ("+str(i)+").png"
 
         # Renaming the file
         os.rename(file, new_name)  
 
-path = "/Users/mentxaka/Desktop/Cars/*"
+path = "/Users/mentxaka/Downloads/WholeBiscuits24012023/*"
+
 renamer(path)
+
+
+
+
+

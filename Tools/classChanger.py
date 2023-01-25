@@ -14,3 +14,5 @@ def classChanger(path):
             newText += "1" + line[1:]
 
         with open(file.split(".")[0] + ".txt", 'w') as file: file.write(newText)
+
+classChanger("/Users/mentxaka/Desktop/00281-2491534212-a WholeBiscuit24012023/*")

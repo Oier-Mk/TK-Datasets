@@ -1,6 +1,7 @@
 import os
 import cv2
 
+
 def resize_images(folder_path, override=False):
     for filename in os.listdir(folder_path):
         #Check if the file is an image
@@ -29,4 +30,4 @@ def resize_images(folder_path, override=False):
             cv2.imwrite(os.path.join(folder_path, "R-"+filename),im)
 
 # Example usage:
-resize_images("/Users/mentxaka/Desktop", override=True)
+resize_images("/Users/mentxaka/Downloads/BrokenArms", override=True)
